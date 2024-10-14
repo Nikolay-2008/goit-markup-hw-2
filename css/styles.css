@@ -67,7 +67,7 @@ a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
 }
 
 .nav-link:hover,
@@ -120,7 +120,8 @@ a {
     cursor: pointer;
 }
 
-.first-page-bat:hover{
+.first-page-bat:hover,
+.first-page-bat:focus {
     background-color: #404bbf;
 }
 
@@ -230,6 +231,7 @@ a {
     background: #2e2f42;
 }
 .footer-logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
